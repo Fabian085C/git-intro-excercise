@@ -8,7 +8,8 @@ def spannungsfall(strom, widerstand):
 
 # Funktion 3
 def verlustleistung(strom, widerstand):
-    # TODO
+    output = strom * strom * widerstand
+    return output
 
 
 leistung = 2000   # Watt
